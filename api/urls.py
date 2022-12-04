@@ -7,11 +7,11 @@ from .api import *
 
 router = routers.DefaultRouter()
 
-router.register('api/roles', RoleViewSet, 'roles')
-router.register('api/users', UserViewSet, 'users')
-router.register('api/eventPlanners', EventPlannerViewSet, 'eventPlanners')
-router.register('api/categorys', CategoryViewSet, 'categorys')
-router.register('api/events', EventViewSet, 'events')
+router.register('/roles', RoleViewSet, 'roles')
+router.register('/users', UserViewSet, 'users')
+router.register('/eventPlanners', EventPlannerViewSet, 'eventPlanners')
+router.register('/categorys', CategoryViewSet, 'categorys')
+router.register('/events', EventViewSet, 'events')
 
 urlpatterns = [] + static(settings.MEDIA_URL,
                           document_root=settings.MEDIA_ROOT)
