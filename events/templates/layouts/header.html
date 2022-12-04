@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <!-- Page Title -->
+    <title>Shablagoo</title>
+
+    <!-- Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static '/img/icon/favicon.png' %}" />
+
+    <!-- Web Fonts -->
+   
+    <!-- ======= Bootstrap CSS ======= -->
+    <link rel="stylesheet" href="{% static '/styles/bootstrap.min.css' %}" />
+
+    <!-- ======= Font Awesome CSS ======= -->
+    <link rel="stylesheet" href="{% static '/styles/font-awesome.min.css' %}" />
+
+    <!-- ======= Owl Carousel CSS ======= -->
+    <link
+      rel="stylesheet"
+      href="{% static 'plugins/owlcarousel/owl.carousel.min.css' %}"
+    />
+
+    <!-- ======= Main Stylesheet ======= -->
+    <link rel="stylesheet" href="{% static '/styles/style.css' %}" />
+
+    <!-- ======= Custom Stylesheet ======= -->
+    <link rel="stylesheet" href="{% static '/styles/custom.css' %}" />
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div class="preloader w-100 h-100 position-fixed">
+      <span class="loader"> Cargando... </span>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-main">
+        <div class="container-fluid">
+          <div
+            class="row align-items-center main-menu-wrapper justify-content-between"
+          >
+            <div class="col order-last order-sm-first">
+              <!-- Header Menu -->
+              <div
+                class="main-menu d-flex align-items-center justify-content-end justify-content-sm-start"
+              >
+                <!-- Menu Trigger -->
+                <div class="menu-trigger">
+                  <span></span>
+                </div>
+                <!-- End Menu Trigger -->
+
+                <!-- Main Menu -->
+                <div class="nav-wrapper">
+                  <ul class="nav align-items-center">
+                    <li class="current-menu-item">
+                      <a href="/">Home</a>
+                    </li>
+                    <li>
+                      <a href="/about">Nosotros</a>
+                    </li>
+
+                    <li class="">
+                      <a href="/service">Servicios</a>
+                    </li>
+
+                    <li><a href="/contact">Contactanos</a></li>
+                  </ul>
+                </div>
+
+                <!-- End Main Menu -->
+              </div>
+              <!-- End Header Menu -->
+            </div>
+
+            <div class="col text-sm-center logo-holder">
+              <!-- Logo -->
+              <a href="/" class="logo">
+                <h2>Shablagoo</h2>
+              </a>
+              <!-- End Logo -->
+            </div>
+
+            <div class="col text-right d-none d-sm-block">
+              <!-- Social Icons -->
+              <ul class="social_icon_list">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+              <!-- End Social Icons -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+{% block content %}
+{% endblock %}

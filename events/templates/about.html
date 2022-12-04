@@ -1,0 +1,106 @@
+{% include 'layouts/header.html' %}
+
+
+{% block content %}
+
+{% load static %}
+    <!-- Page Title -->
+    <section class="pt-140 pb-140">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="page-title">
+              <h2>Nosotros</h2>
+              <ul class="list-inline">
+                <li><a href="/">Home</a></li>
+                <li>Nosotros</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Page Title -->
+
+    <!-- Feature -->
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-12">
+                <!-- Section Title -->
+                <div class="section-title mb-3">
+                  <h2>Mision</h2>
+                </div>
+                <!-- End Section Title -->
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-10">
+                <p>
+                  Hacer realidad eventos sociales y corporativos que con precios
+                  accesibles garanticen la completa satisfacción de nuestros
+                  clientes buscando permanentemente crear momentos inolvidables
+                  y significativos para ellos y su familia generando un
+                  referente de efectividad de fuentes dignas de trabajo e
+                  inversión rentable para el inversionista.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <!-- Feature Image -->
+            <div class="mt-50 mt-lg-0">
+              <img src="{% static '/img/feature/Mision.jpg' %}" data-rjs="2" alt="" />
+            </div>
+            <!-- End Feature Image -->
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-12">
+                <!-- Section Title -->
+                <div class="section-title mb-3">
+                  <h2>Vision</h2>
+                </div>
+                <!-- End Section Title -->
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-10">
+                <p>
+                  Ser la mejor opción en servicios de excelencia para la
+                  realización de eventos artísticos con un permanente enfoque
+                  hacia la innovación y el crecimiento de nuestros artistas
+                  locales.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <!-- Feature Image -->
+            <div class="mt-50 mt-lg-0">
+              <img src="{% static '/img/feature/Vision.jpg' %}" data-rjs="2" alt="" />
+            </div>
+            <!-- End Feature Image -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <!-- End Feature -->
+
+{% endblock %}
+
+{% include 'layouts/footer.html' %}

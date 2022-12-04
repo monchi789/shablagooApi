@@ -1,0 +1,138 @@
+{% include 'layouts/header.html' %}
+
+
+{% block content %}
+
+{% load static %}
+    <!-- Page Title -->
+    <section class="pt-140 pb-140">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="page-title">
+                <h2>Servicios</h2>
+                <ul class="list-inline">
+                  <li><a href="/">Home</a></li>
+                  <li>Servicios</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Page Title -->
+  
+      <!-- Feature -->
+      <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Section Title -->
+                            <div class="section-title mb-3">
+                                <h2>LOS MEJORES MOMENTOS SE VIVEN EN EL ESCENARIO</h2>
+                            </div>
+                            <!-- End Section Title -->
+                        </div>
+                    </div>
+  
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <p> Desde siempre el ser humano ha tenido una inmensa necesidad de abandonarse a sí mismo, en pequeños instantes, para convertirse en otras personas y vivir otras tantas historias. Esto se da con la literatura e incluso con la música, pero cierto es que la mayor manera de evasión es el teatro, un lugar donde puedes ser quien tú quieras.</p>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="col-lg-5">
+                    <!-- Feature Image -->
+                    <div class="mt-50 mt-lg-0">
+                        <img src="{% static '/img/feature/la-esencia_01.jpg' %}" data-rjs="2" alt="">
+                    </div>
+                    <!-- End Feature Image -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature -->
+  
+    <!-- Services -->
+    <section class="pt-140 pb-110">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Title -->
+                    <div class="section-title text-center">
+                        <h2>ENCUENTRA FANTASTICOS EVENTOS ARTISTICOS POR LA CIUDAD DEL CUSCO</h2>
+                    </div>
+                    <!-- End Section Title -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <!-- Single Service -->
+                    <button>
+                    <div class="single-service">
+                        <!-- Icon -->
+                        <div class="icon">
+                            <img src="{% static '/img/icon/save_sign (1).svg' %}" class="svg" alt="">
+                        </div>
+                        <!-- End Icon -->
+  
+                        <!-- Content -->
+                        <div class="content">
+                            <h3><a href="#">LOCALES</a></h3>
+                            <p>Lugares unicos en el Cusco, perfecto para conocer el trabajo de los mejores artistas locales de la actualidad.</p>
+                        </div>
+                        <!-- End Content -->
+                    </div></button>
+                    <!-- End Single Service -->
+                </div>
+  
+                <div class="col-lg-4">
+                    <!-- Single Service -->
+                    <button>
+                    <div class="single-service">
+                        <!-- Icon -->
+                        <div class="icon">
+                            <img src="{% static '/img/icon/famous_people_astor_piazzolla.svg' %}" class="svg" alt="">
+                        </div>
+                        <!-- End Icon -->
+  
+                        <!-- Content -->
+                        <div class="content">
+                            <h3><a href="#">EVENTOS</a></h3>
+                            <p>Entretenimiento asegurado por los eventos de diferentes intereses que ofrecen los distintos locales de la ciudad.</p>
+                        </div>
+                        <!-- End Content -->
+                    </div></button>
+                    <!-- End Single Service -->
+                </div>
+  
+                <div class="col-lg-4">
+                    <!-- Single Service -->
+                    <button>
+                    <div class="single-service">
+                        <!-- Icon -->
+                        <div class="icon">
+                            <img src="{% static '/img/icon/service-2.svg' %}" class="svg" alt="">
+                        </div>
+                        <!-- End Icon -->
+  
+                        <!-- Content -->
+                        <div class="content">
+                            <h3><a href="#">ARTISTAS</a></h3>
+                            <p>Encuentra tus artistas locales favoritos realizando musica en vivo, espectaculos en Cusco y alrededores.</p>
+                        </div>
+                        <!-- End Content -->
+                    </div></button>
+                    <!-- End Single Service -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+
+{% endblock %}
+
+{% include 'layouts/footer.html' %}

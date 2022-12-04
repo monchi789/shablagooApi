@@ -1,0 +1,251 @@
+{% include 'layouts/header.html' %}
+
+
+{% block content %}
+
+{% load static %}
+<!-- Banner -->
+    <div class="banner" data-bg-img="{% static '/img/banner/banner-bg.png' %}">
+      <div class="banner_slider">
+        <!-- Single Slider -->
+        <div class="single_slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <!-- Slider Content -->
+                <div class="banner_content text-center">
+                  <h1>Bienvenidos Artistas</h1>
+                  <p>
+                    Cansado de no encontrar un lugar donde promover tu arte,
+                    Shablagoo te ayuda a promover tu arte y ser reconocido a
+                    nivel local, Comparte tu arte con nosotros y nos encargamos
+                    del resto!
+                  </p>
+
+                  <!-- <a href="#" class="btn">Publicar</a> -->
+                </div>
+                <!-- End Slider Content -->
+              </div>
+            </div>
+
+            <!-- Banner Images -->
+            <div
+              class="banner-images row justify-content-between align-items-end"
+            >
+              <!-- Single Banner Image -->
+              <div
+                class="single-banner-image text-center col-sm-6 d-none d-sm-block"
+              >
+                <div class="search-icon-box position-absolute">
+                  <img src="{% static '/img/banner/search-icon.png' %}" alt="" />
+                </div>
+
+                <img src="{% static '/img/feature/wasicleta.jpg' %}" alt="" />
+              </div>
+              <!-- End Single Banner Image -->
+
+              <!-- Single Banner Image -->
+              <div class="single-banner-image text-center col-sm-6">
+                <img
+                  src="{% static '/img/banner/icon-1.png' %}"
+                  alt=""
+                  class="banner-icon icon-1 fa-spin"
+                />
+                <img
+                  src="{% static '/img/banner/icon-2.png' %}"
+                  alt=""
+                  class="banner-icon icon-2 fa-spin"
+                />
+                <img
+                  src="{% static '/img/banner/icon-3.png' %}"
+                  alt=""
+                  class="banner-icon icon-3 fa-spin"
+                />
+                <img src="{% static '/img/feature/esencia.jpg' %}" alt="" />
+              </div>
+              <!-- End Single Banner Image -->
+            </div>
+            <!-- End Banner Images -->
+          </div>
+        </div>
+        <!-- End Single Slider -->
+      </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Services -->
+    <section class="pt-140 pb-140">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Title -->
+                    <div class="section-title text-center">
+                        <h2>¿Que buscamos como Shabloo?</h2>
+                    </div>
+                    <!-- End Section Title -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <!-- Single Service -->
+                    <div class="single-service">
+                        <!-- Icon -->
+                        <div class="icon">
+                            <img src="{% static '/img/icon/service-1.svg' %}" class="svg" alt="">
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Content -->
+                        <div class="content">
+                            <h3><a href="#">Apoyar</a></h3>
+                            <p>Todos los artistas son bienvenidos, nos especializamos en hacer conocida tu arte encontrando el lugar
+                                perfecto para compartirla
+                            </p>
+                        </div>
+                        <!-- End Content -->
+                    </div>
+                    <!-- End Single Service -->
+                </div>
+                <div class="col-lg-4">
+                    <!-- Single Service -->
+                    <div class="single-service">
+                        <!-- Icon -->
+                        <div class="icon">
+                            <img src="{% static '/img/icon/service-2.svg' %}" class="svg" alt="">
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Content -->
+                        <div class="content">
+                            <h3><a href="#">Publicitar</a></h3>
+                            <p>Comparte con nosotros tu talento cuando y donde compartirlo con tu publico</p>
+                        </div>
+                        <!-- End Content -->
+                    </div>
+                    <!-- End Single Service -->
+                </div>
+                <div class="col-lg-4">
+                    <!-- Single Service -->
+                    <div class="single-service">
+                        <!-- Icon -->
+                        <div class="icon">
+                            <img src="{% static '/img/icon/service-3.svg' %}" class="svg" alt="">
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Content -->
+                        <div class="content">
+                            <h3><a href="#">Generar</a></h3>
+                            <p>Se un artista destacado o novato en shablagoo tenemos espacio para todos los gustos </p>
+                        </div>
+                        <!-- End Content -->
+                    </div>
+                    <!-- End Single Service -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center mt-20">
+                        <a href="#" class="btn-inline service-btn">Algunos de nuestros locales de eventos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+
+    <!-- Feature -->
+    <section class="pb-140">
+        <div class="container">
+            <div class="row justify-content-between align-items-center pb-140">
+                <div class="col-lg-5">
+                    <!-- Feature Image -->
+                    <div class="mb-50 mb-lg-0">
+                        <img src="{% static '/img/feature/feature-1.png' %}" alt="">
+                    </div>
+                    <!-- End Feature Image -->
+                </div>
+                <div class="col-lg-6">
+                    <!-- Section Title -->
+                    <div class="section-title style--two">
+                        <div class="title-border">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <h2>Alojeria la Escencia</h2>
+                        <p>La Esencia es un proyecto sin fines de lucro que tiene el objetivo de llevar; salud física a través de los mates de plantas medicinales que servimos y salud espiritual con las presentaciones artísticas que presentamos cada noche.</p>
+                    </div>
+                    <!-- End Section Title -->
+
+                    <!-- List Check -->
+                    <ul class="list-check">
+                        <li>Shows de improvisación</li>
+                        <li>Poesia y canto </li>
+                        <li>Cuentacuentos</li>
+                    </ul>
+                    <!-- End List Check -->
+                </div>
+            </div>
+
+            <div class="row pb-140">
+                <div class="col-lg-6">
+                    <!-- Section Title -->
+                    <div class="section-title style--two">
+                        <div class="title-border">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <h2>Tupac Cafe Cultural</h2>
+                        <p><b>Somos una casa de eventos artisticos urbanos que busca rescatar las costumbres de nuestra ciudad imperial</b></p>
+                        <p>Ven y disgruta de las aterradoras narraciones de terror acompañada de deliciosos postres de nuestra carta.</p>
+                    </div>
+                    <!-- End Section Title -->
+                
+                </div>
+                <div class="col-lg-6 order-first order-lg-last">
+                    <!-- Feature Image -->
+                    <div class="mb-50 mb-lg-0">
+                        <img src="{% static '/img/feature/feature-2.png' %}" alt="">
+                    </div>
+                    <!-- End Feature Image -->
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5">
+                    <!-- Feature Image -->
+                    <div class="mb-50 mb-lg-0">
+                        <img src="{% static '/img/feature/feature-3.png' %}" alt="">
+                    </div>
+                    <!-- End Feature Image -->
+                </div>
+                <div class="col-lg-6">
+                    <!-- Section Title -->
+                    <div class="section-title style--two">
+                        <div class="title-border">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <h2>Taytachas</h2>
+                        <p>Resto bar que brinda oportunidades a bandas emergentes de nuestar ciudad, que buscan rescatar nuestro folclor y darle una vision mas juvenil </p>
+                    </div>
+                    <!-- End Section Title -->
+            
+                    <!-- List Check -->
+                    <ul class="list-check">
+                        <li>Ven y disfruta de nuestros huaynos en compania de tus amigos y amigas</li>
+                        <li>Gran cantidad de platos a la carta y bebidas de todos los sabores y colores a la orden de tu paladar</li>
+                    </ul>
+                    <!-- End List Check -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature -->
+{% endblock %}
+
+{% include 'layouts/footer.html' %}
